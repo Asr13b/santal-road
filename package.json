@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-     "start": "node app.js",
-  "dev": "nodemon app.js",
-     "build": "vite build",
+    "start": "node init && node app.js",
+    "dev": "node init && nodemon app.js",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
